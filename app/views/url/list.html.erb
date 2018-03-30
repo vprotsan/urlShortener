@@ -1,0 +1,9 @@
+<h1>Url List</h1>
+<ul>
+<% @urls.each do |item| %>
+  <li>
+    <%= item.long_url %>
+    <%= item.short_url %>
+  </li>
+<% end %>
+</ul>
